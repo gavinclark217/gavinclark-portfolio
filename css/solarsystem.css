@@ -7,14 +7,13 @@ nav {
 }
 
 nav > ul {
-    border: 2px solid black;
     width: 50vw;
     display: flex;
     justify-content: space-around;
 }
 
 nav > ul > a {
-    padding: 5px;
+    padding: 25px;
     margin: 5px;
 }
 
