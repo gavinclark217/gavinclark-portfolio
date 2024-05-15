@@ -2,21 +2,27 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid black;
-    padding: 15px;
+    width: 100%;
+    padding: 45px;
+    background-image: url(/orion-navbar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-nav > ul {
-    width: 50vw;
+nav>ul {
+    width: 55vw;
     display: flex;
     justify-content: space-around;
 }
 
-nav > ul > a {
+nav>ul>a {
     padding: 25px;
     margin: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .active {
-    background-color: lightgray;
+    text-decoration: underline;
 }
