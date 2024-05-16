@@ -41,6 +41,29 @@ nav>ul>a {
     font-size: 70px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.toprow {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deepsky, .solarsystem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
 footer {
     background-color: gray;
     margin-left: -8px;
